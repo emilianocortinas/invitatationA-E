@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalle de invitación</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="detail-page">
+  <header class="topbar">
+    <a id="backButton" class="back-link" href="index.html">← Regresar</a>
+    <span class="topbar-guest" id="detailGuestName">Invitado</span>
+  </header>
+
+  <main class="detail-shell">
+    <section class="cover-block fade-up">
+      <div class="cover-text">
+        <p class="eyebrow">Estás cordialmente invitado</p>
+        <h1 id="eventTitle">Aneth & Emiliano</h1>
+        <p id="eventDateText" class="lead">Sábado 12 de septiembre de 2026</p>
+        <div class="countdown-wrap">
+          <div class="count-box"><span id="days">0</span><small>días</small></div>
+          <div class="count-box"><span id="hours">0</span><small>horas</small></div>
+          <div class="count-box"><span id="minutes">0</span><small>min</small></div>
+          <div class="count-box"><span id="seconds">0</span><small>seg</small></div>
+        </div>
+      </div>
+      <div class="cover-image-frame">
+        <img id="coverImage" src="img/portada.jpg" alt="Portada del evento" />
+      </div>
+    </section>
+
+    <section class="info-grid fade-up">
+      <article class="info-card">
+        <h2>Para ti</h2>
+        <p><strong id="detailName">—</strong></p>
+        <p>Has sido invitado con <strong id="detailPasses">—</strong> pases.</p>
+        <p>Mesa / Zona: <strong id="detailTable">—</strong></p>
+        <p id="detailMessage">Mensaje personalizado.</p>
+      </article>
+
+      <article class="info-card">
+        <h2>Ceremonia</h2>
+        <p id="ceremonyText">Parroquia San José — 5:00 PM</p>
+        <a id="ceremonyMap" class="btn btn-secondary full" href="#" target="_blank" rel="noopener">Ver ubicación</a>
+      </article>
+
+      <article class="info-card">
+        <h2>Recepción</h2>
+        <p id="receptionText">Jardín Las Palmas — 7:00 PM</p>
+        <a id="receptionMap" class="btn btn-secondary full" href="#" target="_blank" rel="noopener">Ver ubicación</a>
+      </article>
+
+      <article class="info-card">
+        <h2>Confirmación</h2>
+        <p id="confirmDeadline">Confirma antes del 20 de agosto de 2026.</p>
+        <a id="detailConfirmButton" class="btn btn-primary full" href="#" target="_blank" rel="noopener">Confirmar asistencia</a>
+      </article>
+    </section>
+
+    <section class="timeline-section fade-up">
+      <h2>Detalles del evento</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="time">5:00 PM</span>
+          <div>
+            <strong>Ceremonia</strong>
+            <p>Te esperamos para celebrar este momento tan especial.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="time">7:00 PM</span>
+          <div>
+            <strong>Recepción</strong>
+            <p>Acompáñanos a cenar, brindar y disfrutar juntos.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="time">Código</span>
+          <div>
+            <strong id="dressCodeTitle">Dress code</strong>
+            <p id="dressCodeText">Formal elegante.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section fade-up">
+      <h2>Momentos</h2>
+      <div class="gallery-grid">
+        <img src="img/galeria-1.jpg" alt="Imagen 1 del evento" />
+        <img src="img/galeria-2.jpg" alt="Imagen 2 del evento" />
+        <img src="img/galeria-3.jpg" alt="Imagen 3 del evento" />
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

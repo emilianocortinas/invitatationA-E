@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Alamanda";
+  src: url("fonts/Alamanda.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Angeletta";
+  src: url("fonts/Angeletta.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-image: url("img/A&E0002.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Georgia, "Times New Roman", serif;
+  overflow: hidden;
+}
+
+.page {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Contenedor principal de la invitación */
+.invite-card {
+  position: relative;
+  height: 100dvh;
+  width: auto;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* El SVG escala por alto */
+.invite-base {
+  display: block;
+  height: 100dvh;
+  width: auto;
+  max-width: 100vw;
+  object-fit: contain;
+}
+
+/* Elementos flotando encima */
+.overlay {
+  position: absolute;
+  z-index: 2;
+}
+
+/* Nombre de la familia/persona */
+.guest-name {
+  top: 79%;
+  left: 25%;
+  transform: translateX(-50%);
+  width: 64%;
+  text-align: center;
+  color: #ffffff;
+  font-size: clamp(16px, 2.3vw, 30px);
+  line-height: 1.15;
+  font-weight: 500;
+  padding: 0 6px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-family: "Alamanda", serif;
+}
+
+/* Número de personas */
+.guest-count {
+  top: 71%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  text-align: center;
+  color: #ffffff;
+  font-size: clamp(16px, 2vw, 28px);
+  line-height: 1;
+  
+  font-family: "Angeletta", serif;
+}
+
+/* Ajustes móviles */
+@media (max-width: 768px) {
+  .invite-card,
+  .invite-base {
+    width: 100vw;
+    height: auto;
+    max-height: 100dvh;
+  }
+
+  .guest-name {
+    top: 73.5%;
+    left: 20%;
+    font-size: clamp(14px, 2.6vw, 24px);
+  }
+
+  .guest-count {
+    top: 81.5%;
+    left: 71.5%;
+    width: 12%;
+    font-size: clamp(14px, 2.6vw, 22px);
+  }
+}
+
+@media (max-width: 480px) {
+  .guest-name {
+    top: 73.5%;
+    left: 20%;
+    font-size: clamp(12px, 3vw, 18px);
+  }
+
+  .guest-count {
+    top: 81.5%;
+    left: 73.5%;
+    width: 12%;
+    font-size: clamp(12px, 3vw, 18px);
+  }
+}
