@@ -5,11 +5,11 @@
     "eventDate": "2026-09-12T17:00:00-06:00",
     "fechaLimiteConfirmacion": "2026-08-20T23:59:00-06:00",
     "nombre": "Familia Demo",
-    "pases": 4,
+    "pases": "4 Personas",
     "mesa": "Mesa principal",
     "tipo": "Familia",
     "mensaje": "Con mucho cariño queremos compartir contigo uno de los días más especiales de nuestra vida.",
-    "confirmacionTelefono": "5218112345678",
+    "confirmacionTelefono": "5218112305610",
     "dressCodeTitulo": "Código de vestimenta",
     "dressCodeTexto": "Formal elegante en tonos neutros.",
     "portada": "img/portada.jpg",
@@ -30,47 +30,22 @@
     "eventDate": "2026-09-12T17:00:00-06:00",
     "fechaLimiteConfirmacion": "2026-08-20T23:59:00-06:00",
     "nombre": "Aneth",
-    "pases": 2,
+    "pases": "2 Personas",
     "mesa": "Mesa 3",
     "tipo": "Amiga especial",
     "mensaje": "Tu presencia hará este día todavía más especial para nosotros.",
-    "confirmacionTelefono": "5218112345678",
+    "confirmacionTelefono": "5218112305610",
     "dressCodeTitulo": "Dress code",
     "dressCodeTexto": "Formal elegante. Evitar blanco y tonos marfil.",
     "portada": "img/portada.jpg",
     "ceremonia": {
-      "lugar": "Parroquia San José",
+      "lugar": "Parroquia Padre Nuestro",
       "hora": "5:00 PM",
       "mapaUrl": "https://maps.google.com"
     },
     "recepcion": {
-      "lugar": "Jardín Las Palmas",
-      "hora": "7:00 PM",
-      "mapaUrl": "https://maps.google.com"
-    }
-  },
-  "fam-garcia": {
-    "homeTitle": "Familia García, su invitación está lista",
-    "eventTitle": "Aneth & Emiliano",
-    "eventDate": "2026-09-12T17:00:00-06:00",
-    "fechaLimiteConfirmacion": "2026-08-20T23:59:00-06:00",
-    "nombre": "Familia García",
-    "pases": 5,
-    "mesa": "Mesa 7",
-    "tipo": "Familia",
-    "mensaje": "Esperamos que puedan acompañarnos y celebrar este momento con nosotros.",
-    "confirmacionTelefono": "5218112345678",
-    "dressCodeTitulo": "Código de vestimenta",
-    "dressCodeTexto": "Formal. Los niños pueden asistir semi formal.",
-    "portada": "img/portada.jpg",
-    "ceremonia": {
-      "lugar": "Parroquia San José",
-      "hora": "5:00 PM",
-      "mapaUrl": "https://maps.google.com"
-    },
-    "recepcion": {
-      "lugar": "Jardín Las Palmas",
-      "hora": "7:00 PM",
+      "lugar": "VIE EVENETS MTY",
+      "hora": "8:00 PM",
       "mapaUrl": "https://maps.google.com"
     }
   },
@@ -84,18 +59,43 @@
     "mesa": "Mesa 7",
     "tipo": "Familia",
     "mensaje": "Esperamos que puedan acompañarnos y celebrar este momento con nosotros.",
-    "confirmacionTelefono": "5218112345678",
+    "confirmacionTelefono": "5218112305610",
     "dressCodeTitulo": "Código de vestimenta",
     "dressCodeTexto": "Formal. Los niños pueden asistir semi formal.",
     "portada": "img/portada.jpg",
     "ceremonia": {
-      "lugar": "Parroquia San José",
+      "lugar": "Parroquia Padre Nuestro",
       "hora": "5:00 PM",
       "mapaUrl": "https://maps.google.com"
     },
     "recepcion": {
-      "lugar": "Jardín Las Palmas",
-      "hora": "7:00 PM",
+      "lugar": "VIE EVENETS MTY",
+      "hora": "8:00 PM",
+      "mapaUrl": "https://maps.google.com"
+    }
+  },
+  "a4b8e63a-9b67-47ae-911c-744cf51025f8": {
+    "nombre": "Fam. Cortinas Marin",
+    "pases": "3 Personas",
+    "homeTitle": "Familia Cardenas Flores, su invitación está lista",
+    "eventTitle": "Aneth & Emiliano",
+    "eventDate": "2026-10-16T20:30:00-06:00",
+    "fechaLimiteConfirmacion": "2026-09-30T23:59:00-06:00",
+    "mesa": "Mesa 7",
+    "tipo": "Familia",
+    "mensaje": "Esperamos que puedan acompañarnos y celebrar este momento con nosotros.",
+    "confirmacionTelefono": "5218112305610",
+    "dressCodeTitulo": "Código de vestimenta",
+    "dressCodeTexto": "Formal. Los niños pueden asistir semi formal.",
+    "portada": "img/portada.jpg",
+    "ceremonia": {
+      "lugar": "Parroquia Padre Nuestro",
+      "hora": "5:00 PM",
+      "mapaUrl": "https://maps.google.com"
+    },
+    "recepcion": {
+      "lugar": "VIE EVENETS MTY",
+      "hora": "8:00 PM",
       "mapaUrl": "https://maps.google.com"
     }
   }
