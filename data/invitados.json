@@ -2,8 +2,8 @@
   "demo": {
     "homeTitle": "Tu invitación está lista",
     "eventTitle": "Aneth & Emiliano",
-    "eventDate": "2026-09-12T17:00:00-06:00",
-    "fechaLimiteConfirmacion": "2026-08-20T23:59:00-06:00",
+    "eventDate": "2026-10-16T16:00:00-06:00",
+    "fechaLimiteConfirmacion": "2026-09-16T23:59:00-06:00",
     "nombre": "Familia Demo",
     "pases": "4 Personas",
     "mesa": "Mesa principal",
@@ -11,92 +11,29 @@
     "mensaje": "Con mucho cariño queremos compartir contigo uno de los días más especiales de nuestra vida.",
     "confirmacionTelefono": "5218112305610",
     "dressCodeTitulo": "Código de vestimenta",
-    "dressCodeTexto": "Formal elegante en tonos neutros.",
+    "dressCodeTexto": "Formal elegante en color negro.",
     "portada": "img/portada.jpg",
     "ceremonia": {
-      "lugar": "Parroquia San José",
-      "hora": "5:00 PM",
-      "mapaUrl": "https://maps.google.com"
+      "lugar": "Parroquia Padre Nuestro",
+      "hora": "4:00 PM",
+      "mapaUrl": "https://maps.app.goo.gl/vSijudUj5PHZfFFx5"
     },
     "recepcion": {
-      "lugar": "Jardín Las Palmas",
-      "hora": "7:00 PM",
-      "mapaUrl": "https://maps.google.com"
+      "lugar": "VIE Events MTY",
+      "hora": "8:30 PM",
+      "mapaUrl": "https://maps.app.goo.gl/98yUJ1pTHmXsfA45A"
     }
   },
   "aneth": {
-    "homeTitle": "Aneth, tu invitación está lista",
-    "eventTitle": "Aneth & Emiliano",
-    "eventDate": "2026-09-12T17:00:00-06:00",
-    "fechaLimiteConfirmacion": "2026-08-20T23:59:00-06:00",
     "nombre": "Aneth",
-    "pases": "2 Personas",
-    "mesa": "Mesa 3",
-    "tipo": "Amiga especial",
-    "mensaje": "Tu presencia hará este día todavía más especial para nosotros.",
-    "confirmacionTelefono": "5218112305610",
-    "dressCodeTitulo": "Dress code",
-    "dressCodeTexto": "Formal elegante. Evitar blanco y tonos marfil.",
-    "portada": "img/portada.jpg",
-    "ceremonia": {
-      "lugar": "Parroquia Padre Nuestro",
-      "hora": "5:00 PM",
-      "mapaUrl": "https://maps.google.com"
-    },
-    "recepcion": {
-      "lugar": "VIE EVENETS MTY",
-      "hora": "8:00 PM",
-      "mapaUrl": "https://maps.google.com"
-    }
+    "pases": "2 Personas"
   },
-  "9fb212ef-99a7-48c9-8a44-849d9ea254ed": {
-    "nombre": "Fam. Cardenas Flores",
-    "pases": "3 Personas",
-    "homeTitle": "Familia Cardenas Flores, su invitación está lista",
-    "eventTitle": "Aneth & Emiliano",
-    "eventDate": "2026-10-16T20:30:00-06:00",
-    "fechaLimiteConfirmacion": "2026-09-30T23:59:00-06:00",
-    "mesa": "Mesa 7",
-    "tipo": "Familia",
-    "mensaje": "Esperamos que puedan acompañarnos y celebrar este momento con nosotros.",
-    "confirmacionTelefono": "5218112305610",
-    "dressCodeTitulo": "Código de vestimenta",
-    "dressCodeTexto": "Formal. Los niños pueden asistir semi formal.",
-    "portada": "img/portada.jpg",
-    "ceremonia": {
-      "lugar": "Parroquia Padre Nuestro",
-      "hora": "5:00 PM",
-      "mapaUrl": "https://maps.google.com"
-    },
-    "recepcion": {
-      "lugar": "VIE EVENETS MTY",
-      "hora": "8:00 PM",
-      "mapaUrl": "https://maps.google.com"
-    }
-  },
-  "a4b8e63a-9b67-47ae-911c-744cf51025f8": {
+  "1": {
     "nombre": "Fam. Cortinas Marin",
-    "pases": "4 Personas",
-    "homeTitle": "Familia Cardenas Flores, su invitación está lista",
-    "eventTitle": "Aneth & Emiliano",
-    "eventDate": "2026-10-16T20:30:00-06:00",
-    "fechaLimiteConfirmacion": "2026-09-30T23:59:00-06:00",
-    "mesa": "Mesa 7",
-    "tipo": "Familia",
-    "mensaje": "Esperamos que puedan acompañarnos y celebrar este momento con nosotros.",
-    "confirmacionTelefono": "5218112305610",
-    "dressCodeTitulo": "Código de vestimenta",
-    "dressCodeTexto": "Formal. Los niños pueden asistir semi formal.",
-    "portada": "img/portada.jpg",
-    "ceremonia": {
-      "lugar": "Parroquia Padre Nuestro",
-      "hora": "5:00 PM",
-      "mapaUrl": "https://maps.google.com"
-    },
-    "recepcion": {
-      "lugar": "VIE EVENETS MTY",
-      "hora": "8:00 PM",
-      "mapaUrl": "https://maps.google.com"
-    }
+    "pases": "4 Personas"
+  },
+  "2": {
+    "nombre": "Fam. Cardenas Flores",
+    "pases": "3 Personas"
   }
 }
