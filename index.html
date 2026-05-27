@@ -4,17 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Invitación A&E</title>
+    <link rel="preconnect" href="https://anethyemiliano.my.canva.site" />
+    <link rel="dns-prefetch" href="//anethyemiliano.my.canva.site" />
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="loader">
+      <div class="loader-background"></div>
+      <div class="loader-content">
+        <img src="img/loader.svg" alt="Loading" class="loader-logo" />
+        <div class="loader-shimmer"></div>
+      </div>
+    </div>
     <main class="page">
-      <section class="invite-card" onclick="window.location.href='https://anethyemiliano.my.canva.site/copia-de-a-e'">
+      <section class="invite-card" id="inviteCard">
         <picture>
           <source media="(max-width: 768px)" srcset="img/A&E0001.mobile.png" />
           <img src="img/A&E0001.png" alt="Invitación" class="invite-base" />
         </picture>
-        <div class="overlay guest-name" id="guestName">Familia/Invitado xyz</div>
+        <div class="overlay guest-name" id="guestName">
+          Familia/Invitado xyz
+        </div>
         <div class="overlay guest-count" id="guestCount">-1</div>
       </section>
     </main>

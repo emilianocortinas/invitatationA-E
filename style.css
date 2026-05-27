@@ -137,3 +137,147 @@ body {
     font-size: clamp(12px, 3vw, 18px);
   }
 }
+
+.invite-card {
+  cursor: pointer;
+}
+
+body {
+  transition:
+    opacity 0.8s ease,
+    filter 0.8s ease;
+}
+
+/* =========================
+   LOADER PREMIUM
+========================= */
+
+#loader {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  transition:
+    opacity 1s ease,
+    visibility 1s ease;
+}
+
+/* Fondo blur elegante */
+
+.loader-background {
+  position: absolute;
+  inset: 0;
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  background: rgba(255, 255, 255, 0.45);
+}
+
+/* Contenido */
+
+.loader-content {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 24px;
+
+  z-index: 2;
+}
+
+/* SVG */
+
+.loader-logo {
+  width: min(220px, 55vw);
+
+  animation:
+    loaderFloat 3s ease-in-out infinite,
+    loaderFade 2s ease;
+}
+
+/* Brillo premium */
+
+.loader-shimmer {
+  width: 140px;
+  height: 2px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: rgba(212, 175, 55, 0.15);
+}
+
+.loader-shimmer::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: -100%;
+
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 175, 55, 0.9),
+    transparent
+  );
+
+  animation: shimmer 1.8s infinite;
+}
+
+/* Estado oculto */
+
+#loader.hide {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* =========================
+   ANIMACIONES
+========================= */
+
+@keyframes loaderFloat {
+  0% {
+    transform: translateY(0px) scale(1);
+  }
+
+  50% {
+    transform: translateY(-6px) scale(1.02);
+  }
+
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes shimmer {
+  100% {
+    left: 120%;
+  }
+}
+
+@keyframes loaderFade {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
