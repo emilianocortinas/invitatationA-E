@@ -1,32 +1,9 @@
-const targetUrl =
-  "https://anethyemiliano.my.canva.site/copia-de-a-e";
+
 
 const loader = document.getElementById("loader");
 const inviteCard = document.getElementById("inviteCard");
 
 let canNavigate = false;
-
-/* =========================
-   PRECONECTAR CANVA
-========================= */
-
-const preconnect = document.createElement("link");
-preconnect.rel = "preconnect";
-preconnect.href = "https://anethyemiliano.my.canva.site";
-
-document.head.appendChild(preconnect);
-
-/* =========================
-   PRECARGAR DESTINO
-========================= */
-
-const iframe = document.createElement("iframe");
-
-iframe.style.display = "none";
-iframe.src = targetUrl;
-iframe.loading = "eager";
-
-document.body.appendChild(iframe);
 
 /* =========================
    PRECARGAR IMAGENES
@@ -36,7 +13,8 @@ const preloadImages = [
   "img/A&E0001.png",
   "img/A&E0001.mobile.png",
   "img/A&E0002.svg",
-  "img/loader.svg"
+  "img/loader.svg",
+  "img/A&E0002.details.svg"
 ];
 
 Promise.all(
@@ -148,16 +126,21 @@ function finishLoading() {
    CLICK PREMIUM
 ========================= */
 
+const detailPage = document.getElementById("detailPage");
+
 inviteCard.addEventListener("click", () => {
 
   if (!canNavigate) return;
 
-  document.body.style.opacity = "0";
-  document.body.style.filter = "blur(12px)";
+  /* fade portada */
+
+  document.querySelector(".page").style.opacity = "0";
 
   setTimeout(() => {
 
-    window.location.replace(targetUrl);
+    document.querySelector(".page").remove();
+
+    detailPage.classList.add("show");
 
   }, 700);
 });
