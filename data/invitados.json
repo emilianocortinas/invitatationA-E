@@ -35,5 +35,13 @@
   "2": {
     "nombre": "Fam. Cardenas Flores",
     "pases": "3 Personas"
+  },
+  "3": {
+    "nombre": "Fr. Bruce Cecil",
+    "pases": "1 Personas"
+  },
+  "4": {
+    "nombre": "Fam. Garcia",
+    "pases": "4 Personas"
   }
 }
