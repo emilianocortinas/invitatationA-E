@@ -13,7 +13,7 @@ const preloadImages = [
   "img/A&E0001.png",
   "img/A&E0001.mobile.png",
   "img/A&E0002.svg",
-  "img/loader.svg",
+  "img/loader.png",
   "img/A&E0002.details.png"
 ];
 
