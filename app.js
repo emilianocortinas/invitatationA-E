@@ -14,7 +14,7 @@ const preloadImages = [
   "img/A&E0001.mobile.png",
   "img/A&E0002.svg",
   "img/loader.svg",
-  "img/A&E0002.details.svg"
+  "img/A&E0002.details.png"
 ];
 
 Promise.all(
