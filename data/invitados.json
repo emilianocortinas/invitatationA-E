@@ -29,19 +29,151 @@
     "pases": "2 Personas"
   },
   "1": {
-    "nombre": "Fam. Cortinas Marin",
+    "nombre": "Fam. Cortinas Marín",
     "pases": "4 Personas"
   },
   "2": {
-    "nombre": "Fam. Cardenas Flores",
+    "nombre": "Fam. Cárdenas Flores",
     "pases": "3 Personas"
   },
   "3": {
     "nombre": "Fr. Bruce Cecil",
-    "pases": "1 Personas"
+    "pases": "1 Persona"
   },
   "4": {
-    "nombre": "Fam. Garcia",
+    "nombre": "Fam. García",
     "pases": "4 Personas"
+  },
+  "5": {
+    "nombre": "Fam. Cortinas Arizpe",
+    "pases": "4 Personas"
+  },
+  "6": {
+    "nombre": "Fam. Urrecha Cortinas",
+    "pases": "7 Personas"
+  },
+  "7": {
+    "nombre": "Fam. Hernández Cortinas",
+    "pases": "5 Personas"
+  },
+  "8": {
+    "nombre": "Fam. Paisano Cortinas",
+    "pases": "4 Personas"
+  },
+  "9": {
+    "nombre": "Francisco Cortinas",
+    "pases": "2 Personas"
+  },
+  "10": {
+    "nombre": "Juanita Arriaga",
+    "pases": "1 Persona"
+  },
+  "11": {
+    "nombre": "Fam. Marín Torres",
+    "pases": "4 Personas"
+  },
+  "12": {
+    "nombre": "Nora Marín, Fam.",
+    "pases": "4 Personas"
+  },
+  "13": {
+    "nombre": "Fam. Cortinas Herrera",
+    "pases": "2 Personas"
+  },
+  "14": {
+    "nombre": "Fam. Cortinas Díaz",
+    "pases": "3 Personas"
+  },
+  "15": {
+    "nombre": "Fam. Cortinas Morales",
+    "pases": "2 Personas"
+  },
+  "16": {
+    "nombre": "Fam. Cerda Castro",
+    "pases": "3 Personas"
+  },
+  "17": {
+    "nombre": "Sebastian Cerda",
+    "pases": "2 Personas"
+  },
+  "18": {
+    "nombre": "Fam. Rodríguez Escalante",
+    "pases": "4 Personas"
+  },
+  "19": {
+    "nombre": "Fam. Martínez Farías",
+    "pases": "5 Personas"
+  },
+  "20": {
+    "nombre": "Fam. Méndez Rivera",
+    "pases": "5 Personas"
+  },
+  "21": {
+    "nombre": "Fam. Arévalo Rodríguez",
+    "pases": "2 Personas"
+  },
+  "22": {
+    "nombre": "Fam. Moreno Ceniceros",
+    "pases": "2 Personas"
+  },
+  "23": {
+    "nombre": "César Rodríguez",
+    "pases": "2 Personas"
+  },
+  "24": {
+    "nombre": "José Rodríguez",
+    "pases": "2 Personas"
+  },
+  "25": {
+    "nombre": "Salvador Veloz",
+    "pases": "1 Persona"
+  },
+  "26": {
+    "nombre": "Carlos Daniel González",
+    "pases": "2 Personas"
+  },
+  "27": {
+    "nombre": "Luis Isais",
+    "pases": "2 Personas"
+  },
+  "28": {
+    "nombre": "Paola López",
+    "pases": "1 Persona"
+  },
+  "29": {
+    "nombre": "Dante Hernández",
+    "pases": "2 Personas"
+  },
+  "30": {
+    "nombre": "Fam. Alfaro",
+    "pases": "2 Personas"
+  },
+  "31": {
+    "nombre": "Aarón Hernández",
+    "pases": "2 Personas"
+  },
+  "32": {
+    "nombre": "Juan Guerrero",
+    "pases": "2 Personas"
+  },
+  "33": {
+    "nombre": "Gerardo Flores",
+    "pases": "2 Personas"
+  },
+  "34": {
+    "nombre": "Osmar Zúñiga",
+    "pases": "2 Personas"
+  },
+  "35": {
+    "nombre": "Fam. De la Cruz",
+    "pases": "2 Personas"
+  },
+  "36": {
+    "nombre": "César Galindo",
+    "pases": "1 Persona"
+  },
+  "37": {
+    "nombre": "Alexis Montano",
+    "pases": "1 Personas"
   }
 }
