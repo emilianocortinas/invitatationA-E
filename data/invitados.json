@@ -145,7 +145,7 @@
     "pases": "2 Personas"
   },
   "30": {
-    "nombre": "Fam. Alfaro",
+    "nombre": "Josué Alfaro, Fam.",
     "pases": "2 Personas"
   },
   "31": {
@@ -165,7 +165,7 @@
     "pases": "2 Personas"
   },
   "35": {
-    "nombre": "Fam. De la Cruz",
+    "nombre": "Daniel De La Cruz, Fam.",
     "pases": "2 Personas"
   },
   "36": {
@@ -192,15 +192,15 @@
   },
   "40": {
     "nombre": "Fam. Ramírez Pérez",
-    "pases": "5 Personas"
+    "pases": "7 Personas"
   },
   "41": {
     "nombre": "Fam. López Pérez",
-    "pases": "4 Personas"
+    "pases": "5 Personas"
   },
   "42": {
     "nombre": "Alan Ovalle Pérez",
-    "pases": "1 Persona"
+    "pases": "2 Persona"
   },
   "43": {
     "nombre": "Fam. Rico Pérez",
@@ -259,11 +259,11 @@
     "pases": "2 Personas"
   },
   "57": {
-    "nombre": "Fam. X García",
+    "nombre": "Saraí Garcia, Fam.",
     "pases": "2 Personas"
   },
   "58": {
-    "nombre": "Fam. X Salinas",
+    "nombre": "Yessica Salinas, Fam.",
     "pases": "2 Personas"
   },
   "59": {
@@ -271,11 +271,7 @@
     "pases": "2 Personas"
   },
   "60": {
-    "nombre": "Jorge Flores",
-    "pases": "1 Persona"
-  },
-  "61": {
-    "nombre": "Rodrigo Flores",
+    "nombre": "Karina Ariass",
     "pases": "1 Persona"
   }
 
