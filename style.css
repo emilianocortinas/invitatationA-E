@@ -38,9 +38,11 @@ body {
 .page {
   width: 100%;
   height: 100dvh;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   padding: 0;
   overflow: hidden;
 }
@@ -48,21 +50,41 @@ body {
 /* Contenedor principal de la invitación */
 .invite-card {
   position: relative;
-  height: 100dvh;
-  width: auto;
-  max-width: 100vw;
+
+  width: min(
+    100vw,
+    calc(100dvh * 1366 / 768)
+  );
+
+  aspect-ratio: 1366 / 768;
+
+  max-height: 100dvh;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
+  cursor: pointer;
 }
 
 /* El SVG escala por alto */
 .invite-base {
   display: block;
-  height: 100dvh;
-  width: auto;
-  max-width: 100vw;
+
+  width: 100%;
+  height: 100%;
+
   object-fit: contain;
+}
+
+.invite-card picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.invite-card picture img {
+  display: block;
 }
 
 /* Elementos flotando encima */
@@ -75,16 +97,25 @@ body {
 .guest-name {
   top: 79%;
   left: 25%;
-  transform: translateX(-50%);
+
+  transform: translate(-50%, -50%);
+
   width: 64%;
+
   text-align: center;
+
   color: #ffffff;
-  font-size: clamp(16px, 2.3vw, 30px);
+
+  font-size: clamp(26px, 2.05vmin, 30px);
+
   line-height: 1.15;
   font-weight: 500;
+
   padding: 0 6px;
+
   word-wrap: break-word;
   overflow-wrap: break-word;
+
   font-family: "Alamanda", serif;
 }
 
@@ -92,17 +123,24 @@ body {
 .guest-count {
   top: 71%;
   left: 82%;
+
   transform: translate(-50%, -50%);
+
   width: 10%;
+
   text-align: center;
+
   color: #ffffff;
-  font-size: clamp(16px, 2vw, 28px);
+
+  font-size: clamp(30px, 2.5vmin, 34px);
+
   line-height: 1;
-  
+
   font-family: "Angeletta", serif;
 }
 
 /* Ajustes móviles */
+/* descartado
 @media (max-width: 768px) {
   .invite-card,
   .invite-base {
@@ -140,8 +178,50 @@ body {
   }
 }
 
-.invite-card {
-  cursor: pointer;
+*/
+@media (orientation: portrait) {
+
+  .invite-card {
+    width: min(
+      100vw,
+      calc(100dvh * 1429 / 2000)
+    );
+
+    aspect-ratio: 1429 / 2000;
+
+    max-height: 100dvh;
+  }
+
+  .invite-base {
+    width: 100%;
+    height: 100%;
+  }
+
+  .guest-name {
+    top: 73.5%;
+    left: 20%;
+
+    width: 64%;
+
+    font-size: clamp(
+      20px,
+      2.6vmin,
+      30px
+    );
+  }
+
+  .guest-count {
+    top: 81.5%;
+    left: 71.5%;
+
+    width: 12%;
+
+    font-size: clamp(
+      24px,
+      2.6vmin,
+      34px
+    );
+  }
 }
 
 body {
